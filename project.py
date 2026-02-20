@@ -46,10 +46,10 @@ with st.spinner("preprocessing.."):
 #odel=load_model()
 
 
-data=(
-    'Name':['Abdul Aziz','Anna','Bob','peter',],
-    'Age':[28,24,35,32,54,56,67],
-    'city':["Hyd","Mumbai","kolkata","bhopal","chennai","Delhi","jaipur"])
+ata=(
+    'Name':['Abdul Aziz','Anna','Bob','peter'],
+    'Age':[28,24,35,32]
+    'city':["Hyd","Mumbai","kolkata","bhopal"])
 
 data_df=pd.DataFrame(data)
 st.dataframe(data_df)
@@ -59,4 +59,5 @@ st.pyplot()
 rand=np.random.normal(1,2,size=20)
 fig, ax=plt.subplots()
 ax.hist(rand,bins=15)
+
 st.pyplot(fig)
