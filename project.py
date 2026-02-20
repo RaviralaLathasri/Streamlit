@@ -46,7 +46,7 @@ with st.spinner("preprocessing.."):
 #odel=load_model()
 
 
-ata=(
+data=(
     'Name':['Abdul Aziz','Anna','Bob','peter'],
     'Age':[28,24,35,32]
     'city':["Hyd","Mumbai","kolkata","bhopal"])
@@ -61,3 +61,4 @@ fig, ax=plt.subplots()
 ax.hist(rand,bins=15)
 
 st.pyplot(fig)
+
